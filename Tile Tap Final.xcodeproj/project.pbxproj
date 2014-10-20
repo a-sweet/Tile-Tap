@@ -14,7 +14,6 @@
 		782DB01D191E3BEE00CCC4BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 782DB01C191E3BEE00CCC4BA /* main.m */; };
 		782DB021191E3BEE00CCC4BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782DB020191E3BEE00CCC4BA /* AppDelegate.m */; };
 		782DB024191E3BEE00CCC4BA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782DB022191E3BEE00CCC4BA /* Main_iPhone.storyboard */; };
-		782DB027191E3BEE00CCC4BA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782DB025191E3BEE00CCC4BA /* Main_iPad.storyboard */; };
 		782DB02A191E3BEE00CCC4BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782DB029191E3BEE00CCC4BA /* ViewController.m */; };
 		782DB02C191E3BEE00CCC4BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782DB02B191E3BEE00CCC4BA /* Images.xcassets */; };
 		782DB033191E3BEE00CCC4BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782DB032191E3BEE00CCC4BA /* XCTest.framework */; };
@@ -22,6 +21,12 @@
 		782DB035191E3BEE00CCC4BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782DB014191E3BEE00CCC4BA /* UIKit.framework */; };
 		782DB03D191E3BEE00CCC4BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782DB03B191E3BEE00CCC4BA /* InfoPlist.strings */; };
 		782DB03F191E3BEE00CCC4BA /* Tile_Tap_FinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782DB03E191E3BEE00CCC4BA /* Tile_Tap_FinalTests.m */; };
+		78BDFD45193D0F1A00BA7BE7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BDFD44193D0F1A00BA7BE7 /* Storyboard.storyboard */; };
+		78BDFD4B193D288B00BA7BE7 /* IpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDFD4A193D288B00BA7BE7 /* IpadViewController.m */; };
+		B524F32019C1DD9E009D7C9F /* ResumeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B524F31F19C1DD9E009D7C9F /* ResumeButton.png */; };
+		B524F32219C1DDB2009D7C9F /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B524F32119C1DDB2009D7C9F /* PauseButton.png */; };
+		B524F32419C1DDC6009D7C9F /* EndButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B524F32319C1DDC6009D7C9F /* EndButton.png */; };
+		B524F32619C1DDD0009D7C9F /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B524F32519C1DDD0009D7C9F /* PlayButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +51,6 @@
 		782DB01F191E3BEE00CCC4BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		782DB020191E3BEE00CCC4BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		782DB023191E3BEE00CCC4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		782DB026191E3BEE00CCC4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		782DB028191E3BEE00CCC4BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		782DB029191E3BEE00CCC4BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		782DB02B191E3BEE00CCC4BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +59,13 @@
 		782DB03A191E3BEE00CCC4BA /* Tile Tap FinalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tile Tap FinalTests-Info.plist"; sourceTree = "<group>"; };
 		782DB03C191E3BEE00CCC4BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		782DB03E191E3BEE00CCC4BA /* Tile_Tap_FinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tile_Tap_FinalTests.m; sourceTree = "<group>"; };
+		78BDFD44193D0F1A00BA7BE7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		78BDFD49193D288B00BA7BE7 /* IpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpadViewController.h; sourceTree = "<group>"; };
+		78BDFD4A193D288B00BA7BE7 /* IpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IpadViewController.m; sourceTree = "<group>"; };
+		B524F31F19C1DD9E009D7C9F /* ResumeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ResumeButton.png; sourceTree = "<group>"; };
+		B524F32119C1DDB2009D7C9F /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		B524F32319C1DDC6009D7C9F /* EndButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EndButton.png; sourceTree = "<group>"; };
+		B524F32519C1DDD0009D7C9F /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +95,8 @@
 		782DB004191E3BEE00CCC4BA = {
 			isa = PBXGroup;
 			children = (
-				782DB016191E3BEE00CCC4BA /* Tile Tap Final */,
+				78BDFD43193D0EC300BA7BE7 /* iPad */,
+				782DB016191E3BEE00CCC4BA /* Tile Tap */,
 				782DB038191E3BEE00CCC4BA /* Tile Tap FinalTests */,
 				782DB00F191E3BEE00CCC4BA /* Frameworks */,
 				782DB00E191E3BEE00CCC4BA /* Products */,
@@ -111,18 +123,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		782DB016191E3BEE00CCC4BA /* Tile Tap Final */ = {
+		782DB016191E3BEE00CCC4BA /* Tile Tap */ = {
 			isa = PBXGroup;
 			children = (
 				782DB01F191E3BEE00CCC4BA /* AppDelegate.h */,
 				782DB020191E3BEE00CCC4BA /* AppDelegate.m */,
+				78BDFD44193D0F1A00BA7BE7 /* Storyboard.storyboard */,
+				78BDFD49193D288B00BA7BE7 /* IpadViewController.h */,
+				78BDFD4A193D288B00BA7BE7 /* IpadViewController.m */,
 				782DB022191E3BEE00CCC4BA /* Main_iPhone.storyboard */,
-				782DB025191E3BEE00CCC4BA /* Main_iPad.storyboard */,
+				B524F31F19C1DD9E009D7C9F /* ResumeButton.png */,
+				B524F32319C1DDC6009D7C9F /* EndButton.png */,
+				B524F32519C1DDD0009D7C9F /* PlayButton.png */,
+				B524F32119C1DDB2009D7C9F /* PauseButton.png */,
 				782DB028191E3BEE00CCC4BA /* ViewController.h */,
 				782DB029191E3BEE00CCC4BA /* ViewController.m */,
 				782DB02B191E3BEE00CCC4BA /* Images.xcassets */,
 				782DB017191E3BEE00CCC4BA /* Supporting Files */,
 			);
+			name = "Tile Tap";
 			path = "Tile Tap Final";
 			sourceTree = "<group>";
 		};
@@ -153,6 +172,13 @@
 				782DB03B191E3BEE00CCC4BA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BDFD43193D0EC300BA7BE7 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782DB027191E3BEE00CCC4BA /* Main_iPad.storyboard in Resources */,
 				782DB02C191E3BEE00CCC4BA /* Images.xcassets in Resources */,
 				782DB024191E3BEE00CCC4BA /* Main_iPhone.storyboard in Resources */,
+				B524F32419C1DDC6009D7C9F /* EndButton.png in Resources */,
+				B524F32619C1DDD0009D7C9F /* PlayButton.png in Resources */,
+				B524F32019C1DD9E009D7C9F /* ResumeButton.png in Resources */,
+				78BDFD45193D0F1A00BA7BE7 /* Storyboard.storyboard in Resources */,
 				782DB01B191E3BEE00CCC4BA /* InfoPlist.strings in Resources */,
+				B524F32219C1DDB2009D7C9F /* PauseButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BDFD4B193D288B00BA7BE7 /* IpadViewController.m in Sources */,
 				782DB02A191E3BEE00CCC4BA /* ViewController.m in Sources */,
 				782DB021191E3BEE00CCC4BA /* AppDelegate.m in Sources */,
 				782DB01D191E3BEE00CCC4BA /* main.m in Sources */,
@@ -292,14 +323,6 @@
 				782DB023191E3BEE00CCC4BA /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		782DB025191E3BEE00CCC4BA /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				782DB026191E3BEE00CCC4BA /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		782DB03B191E3BEE00CCC4BA /* InfoPlist.strings */ = {
@@ -390,10 +413,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tile Tap Final/Tile Tap Final-Prefix.pch";
 				INFOPLIST_FILE = "Tile Tap Final/Tile Tap Final-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +429,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tile Tap Final/Tile Tap Final-Prefix.pch";
 				INFOPLIST_FILE = "Tile Tap Final/Tile Tap Final-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +499,7 @@
 				782DB044191E3BEE00CCC4BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782DB045191E3BEE00CCC4BA /* Build configuration list for PBXNativeTarget "Tile Tap FinalTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +508,7 @@
 				782DB047191E3BEE00CCC4BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
